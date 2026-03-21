@@ -2,6 +2,16 @@
 
 A sleek, offline-first React Native mobile application designed to help users build and maintain their fitness legacy. By combining daily photo logging with a smart streak-calculation algorithm, this app keeps you accountable and motivated.
 
+## 📥 Download the App (Android)
+
+Want to skip the code and just use the app? You can download the latest Android APK directly to your phone:
+
+**[⬇️ Download WorkoutStreakApp v1.0.0 APK](https://github.com/rishipatel83/WorkoutStreakApp/releases/download/v1.0.0/WorkoutStreakApp.apk)**
+
+*Note: Since this app is not on the Google Play Store, your phone may ask you to "Allow installation from unknown sources" when opening the file.*
+
+---
+
 ## ✨ Features
 
 * **Daily Photo Logging:** Seamlessly open your device's camera or gallery to snap a picture of your daily workout.
@@ -19,7 +29,7 @@ A sleek, offline-first React Native mobile application designed to help users bu
 * **Hardware APIs:** `expo-image-picker`
 * **Icons:** `@expo/vector-icons` (Ionicons & FontAwesome5)
 
-## 🚀 How to Run Locally
+## 🚀 For Developers: How to Run Locally
 
 If you want to clone this repository and run the development server, follow these steps:
 
