@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# 🔥 WorkoutStreakApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek, offline-first React Native mobile application designed to help users build and maintain their fitness legacy. By combining daily photo logging with a smart streak-calculation algorithm, this app keeps you accountable and motivated.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+* **Daily Photo Logging:** Seamlessly open your device's camera or gallery to snap a picture of your daily workout.
+* **Smart Streak Algorithm:** Automatically calculates consecutive days of activity. If you miss a day, the streak resets. If you already logged today, it protects your current streak from duplicate entries.
+* **Persistent Local Storage:** Uses `AsyncStorage` to securely save your streak count, last upload date, and workout photos directly on your device—no internet connection required.
+* **Premium Dark UI:** A custom, distraction-free dark theme (`#1E232C`) accented with vibrant motivational orange (`#F97316`).
+* **Standalone APK Ready:** Fully configured for cloud building via Expo Application Services (EAS).
 
+## 🛠️ Tech Stack
+
+* **Framework:** React Native / Expo
+* **Routing:** Expo Router
+* **Package Manager:** Bun
+* **Storage:** `@react-native-async-storage/async-storage`
+* **Hardware APIs:** `expo-image-picker`
+* **Icons:** `@expo/vector-icons` (Ionicons & FontAwesome5)
+
+## 🚀 How to Run Locally
+
+If you want to clone this repository and run the development server, follow these steps:
+
+1. **Clone the repository:**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
+   git clone [https://github.com/yourusername/WorkoutStreakApp.git](https://github.com/yourusername/WorkoutStreakApp.git)
+   cd WorkoutStreakApp
+2. **Install dependencies:**
    ```bash
-   npx expo start
-   ```
+   bun install
+3. **Start expo development server:**
+   ```bash
+   bunx expo start -c
+4. **Test on your device: Download the Expo Go app on your iOS or Android device and scan the QR code generated in your terminal.**
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   
