@@ -35,7 +35,7 @@ If you want to clone this repository and run the development server, follow thes
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/WorkoutStreakApp.git](https://github.com/yourusername/WorkoutStreakApp.git)
+   git clone [https://github.com/rishipatel83/WorkoutStreakApp.git](https://github.com/rishipatel83/WorkoutStreakApp.git)
    cd WorkoutStreakApp
 2. **Install dependencies:**
    ```bash
