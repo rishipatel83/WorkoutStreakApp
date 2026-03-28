@@ -6,7 +6,7 @@ A sleek, offline-first React Native mobile application designed to help users bu
 
 Want to skip the code and just use the app? You can download the latest Android APK directly to your phone:
 
-**[⬇️ Download WorkoutStreakApp v1.0.0 APK](https://github.com/rishipatel83/WorkoutStreakApp/releases/download/v1.0.0/WorkoutStreakApp.apk)**
+**[⬇️ Download WorkoutStreakApp v1.1.0 APK](https://github.com/rishipatel83/WorkoutStreakApp/releases/download/v1.1.0/WorkoutStreakApp.apk)**
 
 *Note: Since this app is not on the Google Play Store, your phone may ask you to "Allow installation from unknown sources" when opening the file.*
 
@@ -14,11 +14,13 @@ Want to skip the code and just use the app? You can download the latest Android 
 
 ## ✨ Features
 
-* **Daily Photo Logging:** Seamlessly open your device's camera or gallery to snap a picture of your daily workout.
-* **Smart Streak Algorithm:** Automatically calculates consecutive days of activity. If you miss a day, the streak resets. If you already logged today, it protects your current streak from duplicate entries.
-* **Persistent Local Storage:** Uses `AsyncStorage` to securely save your streak count, last upload date, and workout photos directly on your device—no internet connection required.
-* **Premium Dark UI:** A custom, distraction-free dark theme (`#1E232C`) accented with vibrant motivational orange (`#F97316`).
-* **Standalone APK Ready:** Fully configured for cloud building via Expo Application Services (EAS).
+* **Strict Daily Logging:** Launch the camera directly from the app to snap your post-workout photo. No gallery uploads allowed—keeping your streak 100% authentic.
+* **Smart Calendar Feed:** Visually track your history with an integrated, collapsible calendar dashboard. Tap any highlighted date to open a full-screen view of that day's workout photo.
+* **Achievement Badges:** Unlock visual medals by pushing your "All-Time Best" max streak to 3, 7, 14, and 30 days.
+* **Smart Streak Algorithm:** Automatically calculates consecutive days of activity. If you miss a day, the active streak resets, but your all-time high is safely stored.
+* **Fluid UI & Animations:** Features a premium dark theme (`#1E293B`), a scroll-aware Floating Action Button (FAB) that smartly transitions from the center to the corner, and smooth header fades.
+* **Full Data Control:** Easily delete past logs if you make a mistake.
+* **Persistent Local Storage:** Uses `AsyncStorage` to securely save your streak count, max streak, and photo history directly on your device—no internet connection required.
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +29,8 @@ Want to skip the code and just use the app? You can download the latest Android 
 * **Package Manager:** Bun
 * **Storage:** `@react-native-async-storage/async-storage`
 * **Hardware APIs:** `expo-image-picker`
-* **Icons:** `@expo/vector-icons` (Ionicons & FontAwesome5)
+* **UI Components:** `react-native-calendars`
+* **Icons:** `@expo/vector-icons` (Ionicons & MaterialCommunityIcons)
 
 ## 🚀 For Developers: How to Run Locally
 
