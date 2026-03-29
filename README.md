@@ -6,7 +6,7 @@ A sleek, offline-first React Native mobile application designed to help users bu
 
 Want to skip the code and just use the app? You can download the latest Android APK directly to your phone:
 
-**[⬇️ Download WorkoutStreakApp v1.1.0 APK](https://github.com/rishipatel83/WorkoutStreakApp/releases/download/v1.1.0/WorkoutStreakApp.apk)**
+**[⬇️ Download WorkoutStreakApp v1.1.0 APK](https://github.com/rishipatel83/WorkoutStreakApp/releases/tag/v1.1.0)**
 
 *Note: Since this app is not on the Google Play Store, your phone may ask you to "Allow installation from unknown sources" when opening the file.*
 
